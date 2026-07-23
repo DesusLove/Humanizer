@@ -4,7 +4,7 @@
 
 [![skills.sh installs](https://skills.sh/b/blader/humanizer)](https://skills.sh/blader/humanizer)
 
-**Humanizer** is a portable agent skill that strips the telltale signs of AI-generated writing and replaces them with natural, human-sounding prose. It's plain Markdown — zero dependencies, zero build step, works in any agent harness that loads skills.
+**Humanizer** is a portable agent skill that strips the telltale signs of AI-generated writing and replaces them with natural, human-sounding prose. It's plain Markdown. Zero dependencies, zero build step, works in any agent harness that loads skills.
 
 Inspired by [Wikipedia's "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide (WikiProject AI Cleanup), it catches **33 patterns** across content, language, style, communication, and hedging.
 
@@ -65,7 +65,7 @@ Clone the repo wherever your harness expects skill directories:
 git clone https://github.com/blader/humanizer.git /path/to/your/skills/humanizer
 ```
 
-Or just copy `SKILL.md` — that's the whole runtime.
+Or just copy `SKILL.md`. That's the whole runtime.
 
 ---
 
@@ -80,7 +80,7 @@ Humanizer runs a **two-pass edit** on your text:
 
 ### 📏 The Golden Rule: No Fabrication
 
-The rewrite **never** adds facts, names, dates, quotes, or citations that weren't in the source. Specificity comes from the author — not the LLM.
+The rewrite **never** adds facts, names, dates, quotes, or citations that weren't in the source. Specificity comes from the author, not the LLM.
 
 ### 🎯 Voice Calibration
 
@@ -96,7 +96,7 @@ Now humanize this:
 [paste AI text]
 ```
 
-The skill analyzes your sentence rhythm, word choice, and quirks — then matches them instead of producing generic "clean" output. Your voice takes priority over the pattern rules.
+The skill analyzes your sentence rhythm, word choice, and quirks, then matches them instead of producing generic "clean" output. Your voice takes priority over the pattern rules.
 
 ---
 
@@ -121,7 +121,7 @@ The skill analyzes your sentence rhythm, word choice, and quirks — then matche
 | 8 | **Copula avoidance** | "serves as... features... boasts" | "is... has" |
 | 9 | **Negative parallelisms** | "It's not just X, it's Y" | Say it straight |
 | 10 | **Rule of three** | "innovation, inspiration, and insights" | Use a natural number of items |
-| 11 | **Synonym cycling** | "protagonist... main character... central figure" | "protagonist" — repeat the clearest word |
+| 11 | **Synonym cycling** | "protagonist... main character... central figure" | "protagonist" (repeat the clearest word) |
 | 12 | **False ranges** | "from the Big Bang to dark matter" | List topics directly |
 | 13 | **Passive voice / fragments** | "No configuration file needed" | Name the actor when it helps |
 
@@ -129,7 +129,7 @@ The skill analyzes your sentence rhythm, word choice, and quirks — then matche
 
 | # | Pattern | ❌ AI-Speak | ✅ Human Fix |
 |---|---------|------------|-------------|
-| 14 | **Em/en dashes** | "institutions—not the people—yet this continues—" | Periods, commas, colons, or parens |
+| 14 | **Em/en dashes** | "institutions-not the people-yet this continues-" | Periods, commas, colons, or parens |
 | 15 | **Boldface overuse** | "**OKRs**, **KPIs**, **BMC**" | "OKRs, KPIs, BMC" |
 | 16 | **Inline-header lists** | "**Performance:** Performance improved" | Convert to prose |
 | 17 | **Title Case Headings** | "Strategic Negotiations And Partnerships" | "Strategic negotiations and partnerships" |
@@ -164,14 +164,14 @@ The skill analyzes your sentence rhythm, word choice, and quirks — then matche
 
 ## 🎬 Before & After
 
-**Before — AI-generated:**
-> I recently spent five unforgettable days in Lisbon, and let me tell you — this city completely stole my heart. From the moment I arrived, I knew I was somewhere truly special.
+**Before: AI-generated**
+> I recently spent five unforgettable days in Lisbon, and let me tell you, this city completely stole my heart. From the moment I arrived, I knew I was somewhere truly special.
 >
-> Nestled along the banks of the Tagus River, Lisbon stands as a vibrant testament to Portugal's enduring spirit, where rich history and modern energy intertwine at every turn. Yes, the famous hills are challenging — my legs certainly felt it! — but every climb rewards you with breathtaking, panoramic views that make it all worthwhile.
+> Nestled along the banks of the Tagus River, Lisbon stands as a vibrant testament to Portugal's enduring spirit, where rich history and modern energy intertwine at every turn. Yes, the famous hills are challenging (my legs certainly felt it!), but every climb rewards you with breathtaking, panoramic views that make it all worthwhile.
 >
 > No trip would be complete without riding the iconic Tram 28, winding through the city's most historic neighborhoods. And the food? Simply divine.
 
-**After — humanized:**
+**After: humanized**
 > I spent five days in Lisbon last October and still have mixed feelings about it. Beautiful, yes. Also harder on the knees than anyone warned me.
 >
 > The hills are the whole story and somehow never make the brochures. My hotel was up in Alfama, which photographs beautifully and translates, in practice, to climbing what felt like a six-story staircase every time I wanted coffee. By the second day my calves had opinions.
