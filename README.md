@@ -165,11 +165,11 @@ The skill analyzes your sentence rhythm, word choice, and quirks, then matches t
 ## 🎬 Before & After
 
 **Before: AI-generated**
-> In the ever-evolving landscape of modern productivity, few tools have garnered as much attention as the humble cast iron skillet. Truly, it stands as a testament to enduring design — a cornerstone of culinary craftsmanship that has stood the test of time.
+> In the ever-evolving landscape of modern productivity, few tools have garnered as much attention as the humble cast iron skillet. Truly, it stands as a testament to enduring design, a cornerstone of culinary craftsmanship that has stood the test of time.
 >
 > What sets the cast iron skillet apart is not merely its remarkable heat retention, but its incredible versatility. From searing steaks to baking cornbread, from frying chicken to roasting vegetables, this single piece of cookware serves as a veritable Swiss Army knife of the culinary world.
 >
-> Seasoning a cast iron skillet is easier than you might think. Simply apply a thin layer of oil, heat it until it smokes, and repeat. The result is a naturally non-stick surface that improves with each use, building character and patina over generations. It's not just cookware — it's an heirloom in the making.
+> Seasoning a cast iron skillet is easier than you might think. Simply apply a thin layer of oil, heat it until it smokes, and repeat. The result is a naturally non-stick surface that improves with each use, building character and patina over generations. It's not just cookware, it's an heirloom in the making.
 
 **After: humanized**
 > I bought my first cast iron skillet three years ago because a friend would not shut up about his. The thing weighs about as much as a small car, and yes, I have dropped it on my foot. Twice.
