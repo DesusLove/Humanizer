@@ -165,18 +165,18 @@ The skill analyzes your sentence rhythm, word choice, and quirks, then matches t
 ## 🎬 Before & After
 
 **Before: AI-generated**
-> I recently spent five unforgettable days in Lisbon, and let me tell you, this city completely stole my heart. From the moment I arrived, I knew I was somewhere truly special.
+> In the ever-evolving landscape of modern productivity, few tools have garnered as much attention as the humble cast iron skillet. Truly, it stands as a testament to enduring design — a cornerstone of culinary craftsmanship that has stood the test of time.
 >
-> Nestled along the banks of the Tagus River, Lisbon stands as a vibrant testament to Portugal's enduring spirit, where rich history and modern energy intertwine at every turn. Yes, the famous hills are challenging (my legs certainly felt it!), but every climb rewards you with breathtaking, panoramic views that make it all worthwhile.
+> What sets the cast iron skillet apart is not merely its remarkable heat retention, but its incredible versatility. From searing steaks to baking cornbread, from frying chicken to roasting vegetables, this single piece of cookware serves as a veritable Swiss Army knife of the culinary world.
 >
-> No trip would be complete without riding the iconic Tram 28, winding through the city's most historic neighborhoods. And the food? Simply divine.
+> Seasoning a cast iron skillet is easier than you might think. Simply apply a thin layer of oil, heat it until it smokes, and repeat. The result is a naturally non-stick surface that improves with each use, building character and patina over generations. It's not just cookware — it's an heirloom in the making.
 
 **After: humanized**
-> I spent five days in Lisbon last October and still have mixed feelings about it. Beautiful, yes. Also harder on the knees than anyone warned me.
+> I bought my first cast iron skillet three years ago because a friend would not shut up about his. The thing weighs about as much as a small car, and yes, I have dropped it on my foot. Twice.
 >
-> The hills are the whole story and somehow never make the brochures. My hotel was up in Alfama, which photographs beautifully and translates, in practice, to climbing what felt like a six-story staircase every time I wanted coffee. By the second day my calves had opinions.
+> What I did not expect: it makes the best sear I have ever gotten at home. Steaks come out with a crust that sticks to the pan and a center that does not. Cornbread too. Also, scrambled eggs stick to it no matter what anyone on the internet tells you. I have accepted this.
 >
-> Everyone says to ride Tram 28, so I did, wedged against a stranger's backpack for forty minutes while three tour groups filmed the same corner. The custard tarts, though, earn the fuss.
+> The whole seasoning ritual is mostly just an excuse to stand at the stove with a beer and watch oil smoke. But it works. After three years the surface is dark and slick and I have stopped thinking about nonstick pans entirely. My grandchildren can fight over it when I am gone.
 
 ---
 
