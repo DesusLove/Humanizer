@@ -2,7 +2,7 @@
 
 > *Make AI text sound like it came from a person, not a language model.*
 
-[![skills.sh installs](https://skills.sh/b/blader/humanizer)](https://skills.sh/blader/humanizer)
+[![skills.sh](https://skills.sh/b/DesusLove/humanizer)](https://skills.sh/DesusLove/humanizer)
 
 **Humanizer** is a portable agent skill that strips the telltale signs of AI-generated writing and replaces them with natural, human-sounding prose. It's plain Markdown. Zero dependencies, zero build step, works in any agent harness that loads skills.
 
@@ -13,7 +13,7 @@ Inspired by [Wikipedia's "Signs of AI writing"](https://en.wikipedia.org/wiki/Wi
 ## ⚡ Quick Start
 
 ```bash
-npx skills add blader/humanizer --global --agent '*'
+npx skills add DesusLove/humanizer --global --agent '*'
 ```
 
 Then in any agent session:
@@ -37,7 +37,7 @@ Humanize the prose in docs/launch-post.md
 ### 🛠 Skills CLI (recommended)
 
 ```bash
-npx skills add blader/humanizer --global
+npx skills add DesusLove/humanizer --global
 ```
 
 Update an existing install:
@@ -62,7 +62,7 @@ Then invoke as `/humanizer:humanizer`.
 Clone the repo wherever your harness expects skill directories:
 
 ```bash
-git clone https://github.com/blader/humanizer.git /path/to/your/skills/humanizer
+git clone https://github.com/DesusLove/Humanizer.git /path/to/your/skills/humanizer
 ```
 
 Or just copy `SKILL.md`. That's the whole runtime.
@@ -189,25 +189,24 @@ The skill analyzes your sentence rhythm, word choice, and quirks, then matches t
 
 ## 📋 Changelog
 
-| Version | Highlights |
-|---------|------------|
-| **2.9.1** | 📦 Portable frontmatter, global install as default, package validation |
-| **2.9.0** | 🚫 No-fabrication rule, 🎯 voice sample overrides em dash ban |
-| **2.8.3** | 🔧 Version moved to `metadata.version` for Agent Skills compatibility |
-| **2.8.2** | ✏️ New Lisbon example replacing the old before/after |
-| **2.8.1** | 🔗 Cross-agent install docs, Claude Code plugin |
-| **2.8.0** | 🆕 Patterns #31-33: punchlines, aphorisms, rhetorical openers |
-| **2.7.0** | 🆕 Pattern #30: diff-anchored writing; em dashes are a hard cut |
-| **2.6.0** | 🧹 Cleanup: consolidated workflows, gated personality guidance |
-| **2.5.1** | 🆕 Pattern #13: passive voice / subjectless fragments |
-| **2.5.0** | 🆕 Persuasive framing, signposting, fragmented headers |
-| **2.4.0** | 🎯 Voice calibration from user writing samples |
-| **2.3.0** | 🆕 Pattern #25: hyphenated word pairs |
-| **2.2.0** | 🔄 Final audit pass + second rewrite |
-| **2.1.1** | 🐛 Fixed pattern #18 example (curly quotes) |
-| **2.1.0** | 📝 Before/after examples for all 24 patterns |
-| **2.0.0** | ♻️ Complete rewrite from Wikipedia article |
-| **1.0.0** | 🎉 Initial release |
+- **1.0.0** — 🎉 Fork rebrand: metadata updated to DesusLove, em dashes removed from skill instructions, README polished
+- **2.9.1** — 📦 Portable frontmatter, global install as default, package validation
+- **2.9.0** — 🚫 No-fabrication rule, voice sample overrides em dash ban
+- **2.8.3** — 🔧 Version moved to `metadata.version` for Agent Skills compatibility
+- **2.8.2** — ✏️ New Lisbon example replacing the old before/after
+- **2.8.1** — 🔗 Cross-agent install docs, Claude Code plugin
+- **2.8.0** — 🆕 Patterns #31-33: punchlines, aphorisms, rhetorical openers
+- **2.7.0** — 🆕 Pattern #30: diff-anchored writing; em dashes are a hard cut
+- **2.6.0** — 🧹 Cleanup: consolidated workflows, gated personality guidance
+- **2.5.1** — 🆕 Pattern #13: passive voice / subjectless fragments
+- **2.5.0** — 🆕 Persuasive framing, signposting, fragmented headers
+- **2.4.0** — 🎯 Voice calibration from user writing samples
+- **2.3.0** — 🆕 Pattern #25: hyphenated word pairs
+- **2.2.0** — 🔄 Final audit pass + second rewrite
+- **2.1.1** — 🐛 Fixed pattern #18 example (curly quotes)
+- **2.1.0** — 📝 Before/after examples for all 24 patterns
+- **2.0.0** — ♻️ Complete rewrite from Wikipedia article
+- **1.0.0** — 🎉 Initial release
 
 ---
 

@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
   "name": "humanizer",
   "owner": {
-    "name": "blader",
-    "url": "https://github.com/blader"
+    "name": "DesusLove",
+    "url": "https://github.com/DesusLove"
   },
   "description": "The humanizer skill, installable as a Claude Code plugin.",
   "plugins": [
